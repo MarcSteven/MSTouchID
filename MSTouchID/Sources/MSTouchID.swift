@@ -22,7 +22,7 @@ open class MSTouchID:LAContext {
         ,completion completionHandler:@escaping StateCompletionHandler) {
         self.ms_showTouchID(withDescribe: desc, faceIDDescribe: nil, completionHandler: completionHandler)
     }
-    func ms_showTouchID(withDescribe desc:String?,
+     func ms_showTouchID(withDescribe desc:String?,
                         faceIDDescribe faceDesc:String?,
                         completionHandler:@escaping StateCompletionHandler) {
         let supportType = ms_canSupportBiometrics()
