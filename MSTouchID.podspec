@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   
 
-   spec.ios.deployment_target = "9.0"
+   spec.ios.deployment_target = "11.0"
   
 
   
