@@ -61,9 +61,7 @@ open class MSTouchID:LAContext {
                         })
                     case LAError.Code.userCancel.rawValue:
                         DispatchQueue.main.async(execute: {
-                            #if DEBUG
-                           
-                            #endif
+
                             completionHandler(.userCancel,error)
                         })
                     case LAError.Code.biometryLockout.rawValue:

@@ -11,18 +11,17 @@ import Foundation
 
 public  enum TouchIDState: Int {
     case notSupport = 1
-    case success
     case failed
+    case success
     case userCancel
-    case  inputPassword
-    case passwordNotSet
+    case inputPassword
     case systemCancel
+    case passwordNotSet
     case touchIDNotSet
     case touchIDNotAvailable
     case touchIDLockout
+    case appCancel
     case invalidContext
     case versionNotSupport
-    case appCancel
-    case notInteractive
     
 }
